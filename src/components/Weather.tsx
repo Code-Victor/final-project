@@ -4,7 +4,7 @@ import React from "react";
 const Weather = () => {
   const { data } = weather.getWeather.useQuery();
   const weatherData = data?.weather?.[0];
-  var iconurl = "http://openweathermap.org/img/w/" + weatherData.icon + ".png";
+  var iconurl = "http://openweathermap.org/img/w/" + weatherData?.icon + ".png";
   return (
     <div className="bg-gray-300 text-gray-900 px-6 py-2 rounded-md fixed bottom-5 left-5">
       <div className="flex gap-2">

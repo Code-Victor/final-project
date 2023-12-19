@@ -1,6 +1,6 @@
 import React from "react";
 import { useAuthContext, useUser } from "@/providers/auth-provider";
-import { Button } from "./ui/Button";
+import { Button } from "./ui/button";
 import { Link } from "react-router-dom";
 import {
   DropdownMenu,
